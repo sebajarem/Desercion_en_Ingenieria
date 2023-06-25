@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tesis-ds"
+version = "0.1.0"
+description = "Desercion en Ingenieria"
+authors = ["Sebastian Ezequiel Jaremczuk"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+openpyxl = "^3.0.10"
+kaleido = "0.2.1"
+xgboost = "^1.7.6"
+lightgbm = "^3.3.5"
+pycaret = "3.0.0"
+catboost = "^1.2"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.15.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
